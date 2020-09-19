@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Google",
+        "url": "https://google.com"
+    },
+    {
+        "name": "fuelService Admin",
+        "url": "https://admin.fuelservice.org"
+    },
+    {
+        "name": "Engadget",
+        "url": "https://engadget.com"
+    },
+    {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com"
+    },
+    {
+        "name": "Xero",
+        "url": "https://xero.com"
+    },
+    {
+        "name": "Care Cure",
+        "url": "https://www.carecure.net/forum/sci-community-forums/cure"
+    },
+    {
+        "name": "BBC Football",
+        "url": "https://www.bbc.co.uk/sport/football"
+    },
+    {
+        "name": "Wave",
+        "url": "https://my.waveapps.com/login/"
+    },
+    {
+        "name": "Evo",
+        "url": "https://www.evo.co.uk"
+    }
+]

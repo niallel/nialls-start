@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import items from './items.json';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="app">
+      {items.map((item,index) => 
+        <a href={item.url} key={index} className="item">
+          <img className="image" src={
+            'https://api.faviconkit.com/' +
+            item.url.replace('http://','').replace('https://','').split(/[/?#]/)[0] +
+            '/256'}
+            alt={item.name}/>
+            <div className="name">{item.name}</div>
         </a>
-      </header>
+      )}
+
     </div>
   );
 }
